@@ -27,5 +27,5 @@ When you are ready to start again, increase the number of nodes:
 gcloud container clusters resize --zone <name_of_zone> <name_of_your_cluster> --num-nodes=3
 
 kubectl get events or pod or replicas or deployment or service
-kubectl create deployement ....
-kubectrl expose deployeent ....
+kubectl create deployement  - create pod , replicas , deployment
+kubectrl expose deployeent - create service

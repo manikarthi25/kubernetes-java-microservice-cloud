@@ -15,6 +15,8 @@ git branch -M master
 git push -u origin master
 
 
+ Kubernates Command
+
 After finishing your classes of the day you can reduce cluster node size to zero.
 
 gcloud container clusters resize --zone <name_of_zone> <name_of_your_cluster> --num-nodes=0
@@ -23,3 +25,7 @@ gcloud container clusters resize --zone <name_of_zone> <name_of_your_cluster> --
 When you are ready to start again, increase the number of nodes:
 
 gcloud container clusters resize --zone <name_of_zone> <name_of_your_cluster> --num-nodes=3
+
+kubectl get events or pod or replicas or deployment or service
+kubectl create deployement ....
+kubectrl expose deployeent ....

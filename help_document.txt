@@ -14,3 +14,12 @@ git remote add origin https://github.com/manikarthi25/kubernetes-java-microservi
 git branch -M master
 git push -u origin master
 
+
+After finishing your classes of the day you can reduce cluster node size to zero.
+
+gcloud container clusters resize --zone <name_of_zone> <name_of_your_cluster> --num-nodes=0
+
+
+When you are ready to start again, increase the number of nodes:
+
+gcloud container clusters resize --zone <name_of_zone> <name_of_your_cluster> --num-nodes=3
